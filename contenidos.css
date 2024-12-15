@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+/* ----------------------------- */
+
+.contenido-cards{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(2, 1fr);
+gap: 0.75rem;
+color: white;
+padding: 2rem 4rem;
+font-style: italic;
+}
+.tarjeta-grande{
+    grid-column: 1/3;
+    grid-row: 1/3;
+    background-color: black;
+    padding:1rem;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    transition: 200ms;
+    text-align: center;
+}
+.tarjeta-grande:hover{
+    transform: scale(1.1);
+}
+.tarjeta-grande-contenedor{
+    width: 70%;
+    align-self: center;
+}
+.tarjeta-grande-contenedor img{
+    width: 70%;
+    border-radius: 5px;
+}
+.tarjeta-chica{
+    background-color: black;
+    padding: 1.5rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    transition: 200ms;
+}
+.tarjeta-chica:hover{
+    transform: scale(1.1);
+}
+.tarjeta-chica-contenedor{
+    width: 45%;
+    align-self: center;
+}
+.tarjeta-chica-contenedor img{
+    width: 100%;
+    filter: invert(1);
+    border-radius: 25px;
+
+}
+
+/* Contenido de las Cards */
+.cards-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem; 
+ }
+
+ .card{
+    background-color: black;
+    color: white;
+    width: 25rem;
+    height: auto;
+    padding: 2rem 3rem;
+    margin: 2.5rem;
+    border-radius: 20px;
+    box-sizing: border-box;
+    flex-grow: 1;
+    display: inline-block;
+    flex-direction: column;
+    transition: 250ms;
+ }
+ .card:hover{
+    transform: scale(1.2);
+    border: 1px solid rgb(62, 38, 187);
+    background-color: black; /* Cambiar colores a los backgrounds */
+ }
+.card-contenedor-imagen{
+    width: 100%;
+    padding: 0;
+}
+.card-contenedor-imagen img{
+    width: 100%;
+    border-radius: 15px;
+}
+.card-info{
+    margin: 1rem 0rem;
+}
+.card-info h1{
+    font-size: 30px;
+}
+.card-info p{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: justify;
+}
+ .card button{
+    border: 1px solid whitesmoke;
+    background-color: black;
+    border-radius: 100vh;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-style: italic;
+    font-weight: 500;
+    transition: 250ms;
+ }
+ .card button:hover{
+    border: 1px solid black;
+    background-color: red;
+    transform: scale(1.2);
+ }
+
