@@ -5,9 +5,9 @@
     font-family: "Montserrat", sans-serif;
 }
 body{
-    background: #304352;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #304352;  
+    background: -webkit-linear-gradient(to right, #d7d2cc, #304352); 
+    background: linear-gradient(to right, #d7d2cc, #304352); 
     
 }
 header{
@@ -19,9 +19,9 @@ header{
     padding: 1rem 2.5rem;
     justify-content: space-between;
     align-items: center;
-    background: #00416A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E4E5E6, #00416A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #00416A;  
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A); 
+    background: linear-gradient(to right, #E4E5E6, #00416A); 
     
 }
 .header-img-contenedor{
@@ -187,9 +187,9 @@ font-style: italic;
     flex-direction: column;
     transition: 200ms;
     text-align: center;
-    background: #000000;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000000;  
+    background: -webkit-linear-gradient(to right, #434343, #000000); 
+    background: linear-gradient(to right, #434343, #000000); 
 
 }
 .tarjeta-grande:hover{
@@ -210,10 +210,9 @@ font-style: italic;
     flex-direction: column;
     gap: 2rem;
     transition: 200ms;
-    background: #000000;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #000000;  
+background: -webkit-linear-gradient(to right, #434343, #000000);  
+background: linear-gradient(to right, #434343, #000000); 
 }
 .tarjeta-chica:hover{
     transform: scale(1.1);
@@ -248,9 +247,9 @@ background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, F
     display: inline-block;
     flex-direction: column;
     transition: 250ms;
-    background: #536976;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #292E49, #536976);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #292E49, #536976); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #536976;  
+background: -webkit-linear-gradient(to left, #292E49, #536976); 
+background: linear-gradient(to left, #292E49, #536976); 
 
  }
  .card:hover{
